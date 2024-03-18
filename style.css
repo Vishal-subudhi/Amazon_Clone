@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navlogo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url(download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100%;
+}
+
+.border{
+    border: 1.5px solid transparent;
+}
+
+.border:hover{
+    border: 1.5px solid white;
+}
+
+/** 2nd Box**/
+
+
+.fir{
+    color: #cccccc;
+    font-size: .85rem;
+    margin-left: 15px;
+}
+
+.sec{
+    font-size: 1rem;
+    margin-left: 3px;
+    font-weight: 700;
+
+}
+
+.delicon{
+    display: flex;
+    align-items: center;
+}
+
+/** box3**/
+
+.navsearch{
+    display: flex;
+    width: 850px;
+    background-color: #febd68;
+    border-radius: 4px;
+    height: 40px;
+}
+
+.search-select{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #E6E6E6;
+    text-align: center;
+    width: 60px;
+    border: none
+}
+
+.search-text{
+    width: 100%;
+    font-size: 1rem;
+}
+
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    color: #0F1111;
+}
+
+.navsearch:hover{
+    border: 2px solid #febd68;
+}
+
+/** box 4 ,5 **/
+
+span{
+    font-size: 0.75rem;
+
+}
+
+.nav-sec{
+    font-size: 1rem;
+    font-weight: 700;
+
+}
+
+/** box 6 **/
+
+.navcart i{
+    font-size: 30px;
+}
+
+.navcart{
+    font-size: 0.85rem ;
+    font-weight: 700;
+}
+
+.pannel{
+    height: 39px;
+    display: flex;
+    /* justify-content: space-evenly; */
+    align-items: center;
+    background-color: #232f3e;
+    color: white;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+    margin-left: 3px ;
+}
+
+.pannel-deal{
+    height: 39px;
+}
+
+.pannelimg{
+    height: 39px;
+    width: 400px;
+    background-image: url(img.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 1px;
+}
+
+/** Hero section **/
+
+.hero-sec{
+    background-image: url(background\ image.jpg);
+    height: 350px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-msg{
+    background-color: white;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 30px;
+}
+
+/**shop**/
+
+.shop{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(231, 82, 82);
+}
+
+.box{
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    padding: 20px 0px 15px;
+    margin-top: 20px;
+}
+
+.contentbox{
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.contentbox a{
+    color: #007185;
+    text-decoration: none;
+}
+.box-img{
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/** Footer **/
+
+footer{
+    margin-top: 20px;
+}
+
+.footpannel1{
+    height: 49px;
+    background-color: #36393e;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
+
+.footpannel2{
+    background-color: #222f3d;
+    color: white;
+    text-decoration: none;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.footpannel2 a{
+    color: #dddddd;
+}
+
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+
+ul p{
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.footpannel3{
+    height: 60px;
+    background-color: #222f3d;
+    border-top: 0.5px solid white;
+}
+
+.loogo{
+    background-image: url(download.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    width: 100%;
+}
+
+.footpannel4{
+    background-color: #0F1111;
+    color: white;
+    height: 50px;
+    font-size: 0.65rem;
+    text-align: center;
+    padding-top: 18px;
+}
+
+.footpannel4 a{
+    text-decoration: none;
+    color: white;
+    margin-right: 10px;
+}
+
+.footpannel4 p{
+    margin-top: 5px;
+}
